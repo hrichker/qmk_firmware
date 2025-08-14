@@ -1,10 +1,11 @@
 # MCU / board
-MCU       = RP2040
-BOARD     = KB2040
-BOOTLOADER = rp2040
+MCU         = RP2040
+BOOTLOADER  = rp2040
 
 # Core firmware options
 DUPLEX_MATRIX_ENABLE = yes
+CUSTOM_MATRIX = yes
+SRC += matrix.c
 # Enable only features you actually need
 BOOTMAGIC_ENABLE = no
 MOUSEKEY_ENABLE  = no
