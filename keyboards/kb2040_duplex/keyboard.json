@@ -1,6 +1,6 @@
 {
-    "keyboard_name": "CustomKB",
-    "manufacturer": "You",
+    "keyboard_name": "KB2040 Duplex",
+    "manufacturer": "harleyrichker",
     "development_board": "kb2040",
     "usb": {
         "vid": "0x1209",
